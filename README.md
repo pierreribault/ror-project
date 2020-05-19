@@ -1,24 +1,37 @@
-# README
+# Ruby On Rails School Project 📚
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository use [Lando](https://docs.lando.dev/)
 
-Things you may want to cover:
+### Useful commands
 
-* Ruby version
+##### Bundle
+To start server if it has failed
+`lando bundle exec rails s -b 0.0.0.0`
 
-* System dependencies
+##### Rails
+To list Rails commands
+`lando rails`
 
-* Configuration
+To restart server
+`lando rails restart`
 
-* Database creation
+To test if you want to check than all it's ok
+`lando rails t`
 
-* Database initialization
+To migrate DB
+`lando rails db:migrate`
 
-* How to run the test suite
+##### Yarn
+To use yarn
+`lando yarn [...]`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Modify Default Configuration
 
-* Deployment instructions
+##### Host name
+If you want to change the default host : `ror.lndo.site`
+You need to alter the proxy part of `.lando.yml`
+Also you need to modify the host in `config/environnments/development.rb`
 
-* ...
+##### Mariadb Credentials
+You need to alter the database part of `.lando.yml`
+Also you need to modify the default's values in `config/database.yml`
