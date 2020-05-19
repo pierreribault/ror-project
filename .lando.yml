@@ -1,0 +1,39 @@
+name: ror
+services:
+  ruby:
+    type: ruby:2.6
+    build_as_root:
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+      - apt update && apt install -y nodejs yarn
+      - bundle install
+      - gem install rails
+    port: 3000
+    command: bundle exec rails s -b 0.0.0.0
+  database:
+    type: mariadb:10.4
+    creds:
+      user: mariadb
+      password: mariadb
+      database: database
+  pma:
+    type: phpmyadmin:5.0
+    overrides:
+      environment:
+        PMA_HOST: database
+        PMA_USER: mariadb
+        PMA_PASSWORD: mariadb
+
+tooling:
+  rails:
+    service: ruby
+  bundle:
+      service: ruby
+  yarn:
+    service: ruby
+
+proxy:
+  pma:
+    - pma-ror.lndo.site
+  ruby:
+    - ror.lndo.site:3000
