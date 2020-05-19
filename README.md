@@ -5,25 +5,35 @@ This repository use [Lando](https://docs.lando.dev/)
 ## ✨ Useful commands 
 
 #### Bundle
-To start server if it has failed
+To start server if it has failed <br>
 `lando bundle exec rails s -b 0.0.0.0`
 
 #### Rails
-To list Rails commands
+To list Rails commands <br>
 `lando rails`
 
 To restart server
 `lando rails restart`
 
-To test if you want to check than all it's ok
+If you want to check than all it's ok <br>
 `lando rails t`
 
-To migrate DB
+To migrate DB <br>
 `lando rails db:migrate`
 
 #### Yarn
-To use yarn
+To use yarn <br>
 `lando yarn [...]`
+
+
+## 🚀 Start up the project
+
+```
+lando start
+lando yarn
+lando rails db:migrate
+lando bundle exec rails s -b 0.0.0.0
+```
 
 ## ⚙️ Modify Default Configuration
 
