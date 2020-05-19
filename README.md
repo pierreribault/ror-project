@@ -2,7 +2,7 @@
 
 This repository use [Lando](https://docs.lando.dev/)
 
-##✨ Useful commands 
+## ✨ Useful commands 
 
 #### Bundle
 To start server if it has failed
@@ -25,7 +25,7 @@ To migrate DB
 To use yarn
 `lando yarn [...]`
 
-##⚙️ Modify Default Configuration
+## ⚙️ Modify Default Configuration
 
 #### Host name
 If you want to change the default host : `ror.lndo.site` <br>
