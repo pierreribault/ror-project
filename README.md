@@ -2,13 +2,13 @@
 
 This repository use [Lando](https://docs.lando.dev/)
 
-### Useful commands
+##✨ Useful commands 
 
-##### Bundle
+#### Bundle
 To start server if it has failed
 `lando bundle exec rails s -b 0.0.0.0`
 
-##### Rails
+#### Rails
 To list Rails commands
 `lando rails`
 
@@ -21,17 +21,17 @@ To test if you want to check than all it's ok
 To migrate DB
 `lando rails db:migrate`
 
-##### Yarn
+#### Yarn
 To use yarn
 `lando yarn [...]`
 
-### Modify Default Configuration
+##⚙️ Modify Default Configuration
 
-##### Host name
-If you want to change the default host : `ror.lndo.site`
-You need to alter the proxy part of `.lando.yml`
+#### Host name
+If you want to change the default host : `ror.lndo.site` <br>
+You need to alter the proxy part of `.lando.yml` <br>
 Also you need to modify the host in `config/environnments/development.rb`
 
-##### Mariadb Credentials
-You need to alter the database part of `.lando.yml`
-Also you need to modify the default's values in `config/database.yml`
+#### Mariadb Credentials
+You need to alter the database part of `.lando.yml` <br>
+Also you need to modify the default's values in `config/database.yml` <br>
