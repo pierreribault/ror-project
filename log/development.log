@@ -4819,3 +4819,2489 @@ ActionView::Template::Error (undefined local variable or method `app_dashboard_i
     9: <% end %>
   
 app/views/home/index.html.erb:7
+Started GET "/" for 172.20.0.2 at 2020-06-01 12:07:13 +0000
+Started GET "/" for 172.20.0.1 at 2020-06-01 12:07:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 615)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 788ms (Views: 773.7ms | ActiveRecord: 0.0ms | Allocations: 97635)
+
+
+Completed 200 OK in 795ms (Views: 782.8ms | ActiveRecord: 0.0ms | Allocations: 98232)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('6935902364488487670', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('6935902364488487670')[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (16.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `database`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `superadmin_role` tinyint(1) DEFAULT FALSE, `supervisor_role` tinyint(1) DEFAULT FALSE, `user_role` tinyint(1) DEFAULT TRUE, UNIQUE INDEX `index_users_on_email`  (`email`), UNIQUE INDEX `index_users_on_reset_password_token`  (`reset_password_token`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20200601004134)[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20200601001123);
+
+[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-06-01 12:08:25.062119', '2020-06-01 12:08:25.062119')[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('schema_sha1', '48835cd9d3ed85174691f3db4164c03909206b85', '2020-06-01 12:08:25.075946', '2020-06-01 12:08:25.075946')[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.8ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `superadmin_role` tinyint(1) DEFAULT FALSE, `supervisor_role` tinyint(1) DEFAULT FALSE, `user_role` tinyint(1) DEFAULT TRUE, UNIQUE INDEX `index_users_on_email`  (`email`), UNIQUE INDEX `index_users_on_reset_password_token`  (`reset_password_token`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE `ar_internal_metadata` SET `ar_internal_metadata`.`value` = 'test', `ar_internal_metadata`.`updated_at` = '2020-06-01 12:08:25.122944' WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.6ms)[0m  [1m[33mUPDATE `ar_internal_metadata` SET `ar_internal_metadata`.`value` = 'development', `ar_internal_metadata`.`updated_at` = '2020-06-01 12:09:56.826983' WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (12.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS `database`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6935902364488487670', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to DeviseCreateUsers (20200601001123)
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `address` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test@test.com' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('test@test.com', '$2a$11$iJGt3nqXPRoaP5n68PcnF.REU.ZFnZ39sCE/yVwdhrX5ahcWNNpua', '2020-06-01 12:10:09.184539', '2020-06-01 12:10:09.184539')[0m
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba) to Async(mailers) with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x00005625f46f84f0 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601001123')[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddRolesToUsers (20200601004134)
+  [1m[35m (24.0ms)[0m  [1m[35mALTER TABLE `users` ADD `superadmin_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (5.1ms)[0m  [1m[35mALTER TABLE `users` ADD `supervisor_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (3.3ms)[0m  [1m[35mALTER TABLE `users` ADD `user_role` tinyint(1) DEFAULT TRUE[0m
+  [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601004134')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba] Performing ActionMailer::MailDeliveryJob (Job ID: 9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba) from Async(mailers) enqueued at 2020-06-01T12:10:09Z with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x00005625f5e872d8 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba]   Rendering user_mailer/send_welcome_email.html.erb within layouts/mailer
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba]   Rendered user_mailer/send_welcome_email.html.erb within layouts/mailer (Duration: 2.3ms | Allocations: 1530)
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-06-01 12:10:09.366034', '2020-06-01 12:10:09.366034')[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba]   Rendering user_mailer/send_welcome_email.text.erb within layouts/mailer
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('6935902364488487670')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba]   Rendered user_mailer/send_welcome_email.text.erb within layouts/mailer (Duration: 1.2ms | Allocations: 840)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba] UserMailer#send_welcome_email: processed outbound mail in 21.0ms
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba] Delivered mail 5ed4f0215c757_4602b12fa37cc7869dc@3786c5361c61.mail (57.5ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba] Date: Mon, 01 Jun 2020 12:10:09 +0000
+From: test@example.com
+To: test@test.com
+Message-ID: <5ed4f0215c757_4602b12fa37cc7869dc@3786c5361c61.mail>
+Subject: Welcome!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ed4f0215bca0_4602b12fa37cc786847";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ed4f0215bca0_4602b12fa37cc786847
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome, test@test.com
+===============================================
+
+Access to app under following URL: ror.lndo.site.
+
+Thanks for joining and have a great day!
+
+----==_mimepart_5ed4f0215bca0_4602b12fa37cc786847
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h1>Welcome, test@test.com</h1>
+  <p>
+    Access to app under following URL: ror.lndo.site.
+  </p>
+  <p>Thanks for joining and have a great day!</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5ed4f0215bca0_4602b12fa37cc786847--
+
+[ActiveJob] [ActionMailer::MailDeliveryJob] [9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba] Performed ActionMailer::MailDeliveryJob (Job ID: 9018dd3b-8bd9-4fd1-8aaa-0fbe07122bba) from Async(mailers) in 90.85ms
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6935902364488487670', 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateMovies (20200601121222)
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE `movies` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `year` varchar(255), `plot` varchar(255), `genre` varchar(255), `director` varchar(255), `actors` varchar(255), `writer` varchar(255), `poster` varchar(255), `runtime` varchar(255), `released` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601121222')[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('6935902364488487670')[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/movie/index" for 172.20.0.2 at 2020-06-01 12:21:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MovieController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 1178)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 12:21:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2380)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 345ms (Views: 335.2ms | ActiveRecord: 1.3ms | Allocations: 29867)
+
+
+Started POST "/users/sign_in" for 172.20.0.2 at 2020-06-01 12:21:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"xr5j7MPX9O5Gjo2envpyVuVXId4X1f9FHOT7pNxW72bQdvhtJwtBXfWpVjfAj24ZHzBXd+jb1LFhWouPWhKYeA==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'test@test.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movie/index
+Completed 302 Found in 103ms (ActiveRecord: 0.4ms | Allocations: 5904)
+
+
+Started GET "/movie/index" for 172.20.0.2 at 2020-06-01 12:21:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 33.9ms | ActiveRecord: 0.3ms | Allocations: 6526)
+
+
+Started GET "/movie/index" for 172.20.0.2 at 2020-06-01 12:23:23 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.4ms | Allocations: 5569)
+
+
+Started GET "/movie/index" for 172.20.0.2 at 2020-06-01 12:28:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/movie/index"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.4) lib/puma/configuration.rb:228:in `call'
+puma (4.3.4) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.4) lib/puma/server.rb:472:in `process_client'
+puma (4.3.4) lib/puma/server.rb:328:in `block in run'
+puma (4.3.4) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/movies/index" for 172.20.0.2 at 2020-06-01 12:28:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 118ms (Views: 103.3ms | ActiveRecord: 1.5ms | Allocations: 25713)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 12:41:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 962)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 25.5ms | ActiveRecord: 1.4ms | Allocations: 25567)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 12:45:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.6ms | ActiveRecord: 0.3ms | Allocations: 7637)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 12:46:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.3ms | Allocations: 7663)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 12:46:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 741)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.3ms | ActiveRecord: 0.4ms | Allocations: 7691)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 12:48:20 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.5ms | Allocations: 8771)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:07:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.7ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.2ms | ActiveRecord: 0.8ms | Allocations: 9169)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:09:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2701)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.3ms | ActiveRecord: 0.8ms | Allocations: 9625)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:09:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.5ms | Allocations: 9534)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:09:50 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 2602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.4ms | Allocations: 9528)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:09:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.3ms | ActiveRecord: 0.3ms | Allocations: 9549)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:10:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2594)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.2ms | ActiveRecord: 0.5ms | Allocations: 9523)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:10:10 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2587)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 0.5ms | Allocations: 9515)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:10:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"s23Ukvz06BtmgSiMjeEu/BNu2SgEXyvmfCuR1Y530L/tlsqSXE/lh3AlQJE4Dzg9aCsMvMVwWXLzC1StnumvYA==", "movie"=>{"title"=>"", "year"=>"", "genre"=>"", "plot"=>"", "director"=>"", "poster"=>"", "runtime"=>"", "released"=>"", "writer"=>""}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/create.html.erb within layouts/application
+  Rendered movies/create.html.erb within layouts/application (Duration: 1.3ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.9ms | ActiveRecord: 0.5ms | Allocations: 5808)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:10:45 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.7ms | Allocations: 9533)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:11:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.4ms | Allocations: 7676)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:11:08 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"1iVu0S8+DOjzCbaPkE1xYHcAKiFuZs7QXCBDFY6dG96I3nDRj4UBdOWt3pIlo2ehDEX/ta9JvETTAIZtngNkAQ==", "movie"=>{"title"=>"", "year"=>"", "genre"=>"", "plot"=>"", "director"=>"", "poster"=>"", "runtime"=>"", "released"=>"", "writer"=>""}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/create.html.erb within layouts/application
+  Rendered movies/create.html.erb within layouts/application (Duration: 0.8ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.4ms | Allocations: 5799)
+
+
+Started GET "/" for 172.20.0.2 at 2020-06-01 13:13:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 330.3ms | Allocations: 249087)
+Completed 500 Internal Server Error in 335ms (ActiveRecord: 1.8ms | Allocations: 250476)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `app_dashboard_index_path' for #<#<Class:0x00007fb87429b6c8>:0x00007fb874299328>):
+    4: <% if current_user.nil? %>
+    5:   <%= link_to new_user_session_path, class: 'login-button' do %>Sign in<% end %>
+    6: <% else %>
+    7:   <%= link_to app_dashboard_index_path, class: 'login-button' do %>Go to App<% end %>
+    8:   <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
+    9: <% end %>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 172.20.0.2 at 2020-06-01 13:13:20 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 160)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 4133)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:13:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms | Allocations: 7330)
+
+
+Started GET "/users/password/new" for 172.20.0.2 at 2020-06-01 13:14:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 205)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1372)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 6466)
+
+
+Started GET "/users/sign_up" for 172.20.0.2 at 2020-06-01 13:14:01 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 572.1ms | Allocations: 556357)
+Completed 500 Internal Server Error in 577ms (ActiveRecord: 0.0ms | Allocations: 557933)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sword' for #<#<Class:0x00005632331472e0>:0x00005632331496d0>):
+    10:     </div>
+    11: 
+    12:     <div class="mb-6">
+    13:       <%= f.label(:pasls -sword, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
+    14:       <% if @minimum_password_length %>
+    15:       <em>(<%= @minimum_password_length %> characters minimum)</em>
+    16:       <% end %><br />
+  
+app/views/devise/registrations/new.html.erb:13
+app/views/devise/registrations/new.html.erb:2
+Started GET "/users/password/new" for 172.20.0.2 at 2020-06-01 13:14:48 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 707)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 4920)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:14:56 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1081)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 5392)
+
+
+Started GET "/users/sign_up" for 172.20.0.2 at 2020-06-01 13:15:07 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 606.5ms | Allocations: 555972)
+Completed 500 Internal Server Error in 610ms (ActiveRecord: 0.0ms | Allocations: 556600)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sword' for #<#<Class:0x00005632331472e0>:0x00007fb85c4b5638>):
+    10:     </div>
+    11: 
+    12:     <div class="mb-6">
+    13:       <%= f.label(:pasls -sword, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
+    14:       <% if @minimum_password_length %>
+    15:       <em>(<%= @minimum_password_length %> characters minimum)</em>
+    16:       <% end %><br />
+  
+app/views/devise/registrations/new.html.erb:13
+app/views/devise/registrations/new.html.erb:2
+Started GET "/users/sign_up" for 172.20.0.2 at 2020-06-01 13:15:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 197)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1784)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 7981)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:15:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 6610)
+
+
+Started GET "/users/password/new" for 172.20.0.2 at 2020-06-01 13:15:36 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 955)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 6006)
+
+
+Started GET "/users/sign_up" for 172.20.0.2 at 2020-06-01 13:15:37 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1085)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 5349)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:15:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1081)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 5410)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:16:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1422)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 7663)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:23:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#new as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 1043)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:23:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1091)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 13606)
+
+
+Started POST "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:23:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"BwLxnI4gKPWCb6ZTQZ3RXsM4lTljDTBjSvxxyMslOhFoixuNywZcd+uM3c6z6vywYgsMiTu5OipuYJ3fi4KhOw==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'test@test.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movies/new
+Completed 302 Found in 99ms (ActiveRecord: 0.6ms | Allocations: 4516)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:23:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2677)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 37.1ms | ActiveRecord: 1.7ms | Allocations: 17759)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:24:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2950)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 31.8ms | ActiveRecord: 2.9ms | Allocations: 27128)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:25:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"TN6V2D8i5/dGLPS+12ECnaoeIv7SpTo082OGdEa3OiEqhZACR3cF+3RAA+xyxKyLpWahhVq/txsP/XxD41tKJQ==", "movie"=>{"title"=>"test", "year"=>"2019", "genre"=>"cul", "plot"=>"Gros fils de cul", "director"=>"Alexandre", "poster"=>"https://google.fr", "actors"=>"Théo, Manon", "runtime"=>"150m", "released"=>"2020", "writer"=>"Alexandre"}, "commit"=>"Save movie"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+[31mUnpermitted parameter: :writer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[36mMovie Create (0.4ms)[0m  [1m[32mINSERT INTO `movies` (`title`, `year`, `plot`, `genre`, `director`, `actors`, `poster`, `runtime`, `released`, `created_at`, `updated_at`) VALUES ('test', '2019', 'Gros fils de cul', 'cul', 'Alexandre', 'Théo, Manon', 'https://google.fr', '150m', '2020', '2020-06-01 13:25:04.094417', '2020-06-01 13:25:04.094417')[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+Redirected to http://ror.lndo.site/movies
+Completed 302 Found in 14ms (ActiveRecord: 3.5ms | Allocations: 4718)
+
+
+Started GET "/movies" for 172.20.0.2 at 2020-06-01 13:25:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 33.5ms | ActiveRecord: 0.6ms | Allocations: 5806)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:26:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 1.8ms | Allocations: 9991)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:26:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2392)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 35.4ms | ActiveRecord: 1.6ms | Allocations: 16802)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:26:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"KMhnvNMUFAzMtYMPCpfzdMmPPk7fvkzRudAXaAkftr5Ok2Jmq0H2AP7ZdF2vMl1ixve9NVekwf5FTu1frPPGug==", "movie"=>{"title"=>"", "year"=>"", "genre"=>"", "plot"=>"", "director"=>"", "poster"=>"", "actors"=>"", "runtime"=>"", "released"=>"", "writer"=>""}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[36mMovie Create (0.6ms)[0m  [1m[32mINSERT INTO `movies` (`title`, `year`, `plot`, `genre`, `director`, `actors`, `writer`, `poster`, `runtime`, `released`, `created_at`, `updated_at`) VALUES ('', '', '', '', '', '', '', '', '', '', '2020-06-01 13:26:38.256523', '2020-06-01 13:26:38.256523')[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+Redirected to http://ror.lndo.site/movies
+Completed 302 Found in 12ms (ActiveRecord: 3.3ms | Allocations: 4523)
+
+
+Started GET "/movies" for 172.20.0.2 at 2020-06-01 13:26:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.7ms | Allocations: 5566)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (1.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (32.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `database`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6935902364488487670', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to DeviseCreateUsers (20200601001123)
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `address` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (6.7ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test@test.com' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('test@test.com', '$2a$11$j1.32n1tMHuOWF72L/m96e8dexJgvnXHNbKSvuXOWzqAka7W0.cgK', '2020-06-01 13:28:13.996669', '2020-06-01 13:28:13.996669')[0m
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 7e19028a-c4cd-443d-8d10-63b917ae44b8) to Async(mailers) with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x000056216678d178 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601001123')[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddRolesToUsers (20200601004134)
+  [1m[35m (3.3ms)[0m  [1m[35mALTER TABLE `users` ADD `superadmin_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (3.7ms)[0m  [1m[35mALTER TABLE `users` ADD `supervisor_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (4.8ms)[0m  [1m[35mALTER TABLE `users` ADD `user_role` tinyint(1) DEFAULT TRUE[0m
+  [1m[35m (16.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601004134')[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateMovies (20200601121222)
+  [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8] Performing ActionMailer::MailDeliveryJob (Job ID: 7e19028a-c4cd-443d-8d10-63b917ae44b8) from Async(mailers) enqueued at 2020-06-01T13:28:14Z with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x00007fe44c590d20 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (10.2ms)[0m  [1m[35mCREATE TABLE `movies` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255) NOT NULL, `year` varchar(255) NOT NULL, `plot` varchar(255) NOT NULL, `genre` varchar(255) NOT NULL, `director` varchar(255), `actors` varchar(255), `writer` varchar(255), `poster` varchar(255) NOT NULL, `runtime` varchar(255) NOT NULL, `released` varchar(255) NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601121222')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8]   Rendering user_mailer/send_welcome_email.html.erb within layouts/mailer
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8]   Rendered user_mailer/send_welcome_email.html.erb within layouts/mailer (Duration: 3.8ms | Allocations: 1756)
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8]   Rendering user_mailer/send_welcome_email.text.erb within layouts/mailer
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-06-01 13:28:14.201588', '2020-06-01 13:28:14.201588')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8]   Rendered user_mailer/send_welcome_email.text.erb within layouts/mailer (Duration: 2.3ms | Allocations: 1677)
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8] UserMailer#send_welcome_email: processed outbound mail in 31.7ms
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('6935902364488487670')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8] Delivered mail 5ed5026e3427f_5e42b10b33c79b09665c@3786c5361c61.mail (56.8ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8] Date: Mon, 01 Jun 2020 13:28:14 +0000
+From: test@example.com
+To: test@test.com
+Message-ID: <5ed5026e3427f_5e42b10b33c79b09665c@3786c5361c61.mail>
+Subject: Welcome!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ed5026e3359a_5e42b10b33c79b096525";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ed5026e3359a_5e42b10b33c79b096525
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome, test@test.com
+===============================================
+
+Access to app under following URL: ror.lndo.site.
+
+Thanks for joining and have a great day!
+
+----==_mimepart_5ed5026e3359a_5e42b10b33c79b096525
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h1>Welcome, test@test.com</h1>
+  <p>
+    Access to app under following URL: ror.lndo.site.
+  </p>
+  <p>Thanks for joining and have a great day!</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5ed5026e3359a_5e42b10b33c79b096525--
+
+[ActiveJob] [ActionMailer::MailDeliveryJob] [7e19028a-c4cd-443d-8d10-63b917ae44b8] Performed ActionMailer::MailDeliveryJob (Job ID: 7e19028a-c4cd-443d-8d10-63b917ae44b8) from Async(mailers) in 100.17ms
+  [1m[35m (0.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:28:42 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"KMhnvNMUFAzMtYMPCpfzdMmPPk7fvkzRudAXaAkftr5Ok2Jmq0H2AP7ZdF2vMl1ixve9NVekwf5FTu1frPPGug==", "movie"=>{"title"=>"", "year"=>"", "genre"=>"", "plot"=>"", "director"=>"", "poster"=>"", "actors"=>"", "runtime"=>"", "released"=>"", "writer"=>""}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.6ms | Allocations: 10512)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:28:42 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 7291)
+
+
+Started POST "/users/sign_in" for 172.20.0.2 at 2020-06-01 13:28:45 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"fa4nGP/kcIdvFEuJBTL97mrs674WltdpStwL7i05ATob9SLCh7GSi114vNugl1P4ZZRoxZ6MWka2QvHZiNVxPg==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'test@test.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/
+Completed 302 Found in 103ms (ActiveRecord: 0.5ms | Allocations: 4466)
+
+
+Started GET "/" for 172.20.0.2 at 2020-06-01 13:28:45 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 245.0ms | Allocations: 240810)
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 0.5ms | Allocations: 242197)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `app_dashboard_index_path' for #<#<Class:0x00007fb83c114508>:0x00007fb83c11e8f0>):
+    4: <% if current_user.nil? %>
+    5:   <%= link_to new_user_session_path, class: 'login-button' do %>Sign in<% end %>
+    6: <% else %>
+    7:   <%= link_to app_dashboard_index_path, class: 'login-button' do %>Go to App<% end %>
+    8:   <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
+    9: <% end %>
+  
+app/views/home/index.html.erb:7
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:28:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2396)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 1.6ms | Allocations: 16767)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:28:55 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"MmhEa6CkaKh5FKHPvuru8eIErTTMjNksAdmxZ3zvWF9FpF+CnmOYFL9yftMdqTLbNJl/GQMhAIYF0tjuuUgA3A==", "movie"=>{"title"=>"", "year"=>"", "genre"=>"", "plot"=>"", "director"=>"", "poster"=>"", "actors"=>"", "runtime"=>"", "released"=>"", "writer"=>""}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[36mMovie Create (0.4ms)[0m  [1m[32mINSERT INTO `movies` (`title`, `year`, `plot`, `genre`, `director`, `actors`, `writer`, `poster`, `runtime`, `released`, `created_at`, `updated_at`) VALUES ('', '', '', '', '', '', '', '', '', '', '2020-06-01 13:28:55.971019', '2020-06-01 13:28:55.971019')[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+Redirected to http://ror.lndo.site/movies
+Completed 302 Found in 13ms (ActiveRecord: 3.7ms | Allocations: 4514)
+
+
+Started GET "/movies" for 172.20.0.2 at 2020-06-01 13:28:55 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.5ms | Allocations: 5562)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 13:35:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"MmhEa6CkaKh5FKHPvuru8eIErTTMjNksAdmxZ3zvWF9FpF+CnmOYFL9yftMdqTLbNJl/GQMhAIYF0tjuuUgA3A==", "movie"=>{"title"=>"Test", "year"=>"2019", "genre"=>"cul", "plot"=>"Gros film de cul", "director"=>"Alexandre", "poster"=>"https://google.fr", "actors"=>"Théo, Manon", "runtime"=>"150m", "released"=>"2020", "writer"=>"Alexandre"}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[36mMovie Create (0.5ms)[0m  [1m[32mINSERT INTO `movies` (`title`, `year`, `plot`, `genre`, `director`, `actors`, `writer`, `poster`, `runtime`, `released`, `created_at`, `updated_at`) VALUES ('Test', '2019', 'Gros film de cul', 'cul', 'Alexandre', 'Théo, Manon', 'Alexandre', 'https://google.fr', '150m', '2020', '2020-06-01 13:35:05.024628', '2020-06-01 13:35:05.024628')[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+Redirected to http://ror.lndo.site/movies
+Completed 302 Found in 26ms (ActiveRecord: 2.6ms | Allocations: 21425)
+
+
+Started GET "/movies" for 172.20.0.2 at 2020-06-01 13:35:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.4ms | ActiveRecord: 0.6ms | Allocations: 5725)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 13:35:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 1.0ms | Allocations: 2829)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=1):
+  
+app/controllers/movies_controller.rb:21:in `show'
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:35:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.1ms | ActiveRecord: 0.7ms | Allocations: 6403)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:42:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2994)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms | Allocations: 6611)
+
+
+  
+ActionView::Template::Error (undefined method `authors' for #<Movie:0x00007fb85c4368d8>
+Did you mean?  actors):
+    3:   <p><%= @movie.genre %></p>
+    4:   <p><%= @movie.plot %></p>
+    5:   <p><%= @movie.director %></p>
+    6:   <p><%= @movie.authors %></p>
+    7:   <img src="<%= @movie.poster%>" alt="<%= @movie.title %>"/>
+    8: </div>
+  
+app/views/movies/show.html.erb:6
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:42:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.0ms | ActiveRecord: 0.9ms | Allocations: 7719)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:42:42 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 32.9ms | ActiveRecord: 0.9ms | Allocations: 7740)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:43:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 261)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.5ms | ActiveRecord: 0.7ms | Allocations: 7794)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:44:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.1ms | ActiveRecord: 0.6ms | Allocations: 8604)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:44:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.5ms | Allocations: 7869)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:44:27 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.4ms | Allocations: 7886)
+
+
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 13:44:27 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.4ms | Allocations: 7877)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:44:59 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.0ms | ActiveRecord: 0.8ms | Allocations: 6203)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:45:55 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 0.9ms | Allocations: 6183)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:53:12 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 264)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 21.6ms | ActiveRecord: 0.7ms | Allocations: 7812)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:53:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 31.3ms | ActiveRecord: 0.7ms | Allocations: 7784)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:53:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 35.9ms | ActiveRecord: 0.9ms | Allocations: 7788)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.0ms | ActiveRecord: 0.8ms | Allocations: 7772)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 28.9ms | ActiveRecord: 0.6ms | Allocations: 6192)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 34.8ms | ActiveRecord: 1.1ms | Allocations: 6195)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 36.0ms | ActiveRecord: 0.9ms | Allocations: 7777)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 1.0ms | Allocations: 7784)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 263)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.1ms | ActiveRecord: 0.6ms | Allocations: 7798)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 32.2ms | ActiveRecord: 0.7ms | Allocations: 7776)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.9ms | Allocations: 6198)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:56:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.6ms | ActiveRecord: 0.7ms | Allocations: 7778)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:57:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.5ms | ActiveRecord: 0.7ms | Allocations: 7764)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:57:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.9ms | Allocations: 6205)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:59:31 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 35.4ms | ActiveRecord: 0.8ms | Allocations: 7778)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:59:45 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 35.6ms | ActiveRecord: 0.8ms | Allocations: 7766)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:59:46 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.2ms | ActiveRecord: 0.8ms | Allocations: 6203)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 13:59:56 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.9ms | ActiveRecord: 0.8ms | Allocations: 7792)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 14:00:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 0.7ms | Allocations: 7778)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 14:00:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 32.7ms | ActiveRecord: 1.3ms | Allocations: 7774)
+
+
+Started GET "/movies/2" for 172.20.0.2 at 2020-06-01 14:03:12 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 276)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.7ms | ActiveRecord: 0.8ms | Allocations: 7799)
+
+
+  [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (21.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `database`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `database` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('6935902364488487670', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to DeviseCreateUsers (20200601001123)
+  [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `address` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test@test.com' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('test@test.com', '$2a$11$Tz8ycgUytd/9AgvmqZBE..GcHTblU7kaXs0WpUljQh5HlG/P0EKXu', '2020-06-01 14:05:17.596663', '2020-06-01 14:05:17.596663')[0m
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 46ef0f2f-b25a-4981-97ba-bd20c3f1281b) to Async(mailers) with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x000055e29fca06e8 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601001123')[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddRolesToUsers (20200601004134)
+  [1m[35m (3.5ms)[0m  [1m[35mALTER TABLE `users` ADD `superadmin_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (3.8ms)[0m  [1m[35mALTER TABLE `users` ADD `supervisor_role` tinyint(1) DEFAULT FALSE[0m
+  [1m[35m (31.4ms)[0m  [1m[35mALTER TABLE `users` ADD `user_role` tinyint(1) DEFAULT TRUE[0m
+  [1m[35m (4.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601004134')[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateMovies (20200601121222)
+  [1m[35m (1.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b] Performing ActionMailer::MailDeliveryJob (Job ID: 46ef0f2f-b25a-4981-97ba-bd20c3f1281b) from Async(mailers) enqueued at 2020-06-01T14:05:17Z with arguments: "UserMailer", "send_welcome_email", "deliver_now", {:args=>[#<GlobalID:0x000055e2a0c6daa8 @uri=#<URI::GID gid://blog/User/1>>]}
+  [1m[35m (16.6ms)[0m  [1m[35mCREATE TABLE `movies` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255) NOT NULL, `year` varchar(255) NOT NULL, `plot` varchar(255) NOT NULL, `genre` varchar(255) NOT NULL, `director` varchar(255), `actors` varchar(255), `poster` varchar(255) NOT NULL, `runtime` varchar(255) NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200601121222')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b]   Rendering user_mailer/send_welcome_email.html.erb within layouts/mailer
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b]   Rendered user_mailer/send_welcome_email.html.erb within layouts/mailer (Duration: 3.0ms | Allocations: 295)
+  [1m[36mActiveRecord::InternalMetadata Load (3.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b]   Rendering user_mailer/send_welcome_email.text.erb within layouts/mailer
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b]   Rendered user_mailer/send_welcome_email.text.erb within layouts/mailer (Duration: 3.9ms | Allocations: 2852)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b] UserMailer#send_welcome_email: processed outbound mail in 30.2ms
+  [1m[36mActiveRecord::InternalMetadata Create (2.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-06-01 14:05:17.821742', '2020-06-01 14:05:17.821742')[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('6935902364488487670')[0m
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b] Delivered mail 5ed50b1dca64c_6262af14fdf3e8071914@3786c5361c61.mail (58.2ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b] Date: Mon, 01 Jun 2020 14:05:17 +0000
+From: test@example.com
+To: test@test.com
+Message-ID: <5ed50b1dca64c_6262af14fdf3e8071914@3786c5361c61.mail>
+Subject: Welcome!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ed50b1dc99d8_6262af14fdf3e807185c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ed50b1dc99d8_6262af14fdf3e807185c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome, test@test.com
+===============================================
+
+Access to app under following URL: ror.lndo.site.
+
+Thanks for joining and have a great day!
+
+----==_mimepart_5ed50b1dc99d8_6262af14fdf3e807185c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h1>Welcome, test@test.com</h1>
+  <p>
+    Access to app under following URL: ror.lndo.site.
+  </p>
+  <p>Thanks for joining and have a great day!</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_5ed50b1dc99d8_6262af14fdf3e807185c--
+
+[ActiveJob] [ActionMailer::MailDeliveryJob] [46ef0f2f-b25a-4981-97ba-bd20c3f1281b] Performed ActionMailer::MailDeliveryJob (Job ID: 46ef0f2f-b25a-4981-97ba-bd20c3f1281b) from Async(mailers) in 100.18ms
+Started GET "/" for 172.20.0.2 at 2020-06-01 14:05:19 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 386)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 5758)
+
+
+Started GET "/users/sign_in" for 172.20.0.2 at 2020-06-01 14:05:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1480)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 23.5ms | ActiveRecord: 1.8ms | Allocations: 15437)
+
+
+Started POST "/users/sign_in" for 172.20.0.2 at 2020-06-01 14:05:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Fxz+SrMKd9mxWPnKTF/eKkEprpB0GJpIXkDb+8G7ISrihGu1VAUcL0nngmgbjTcbjnSEHlyOMH4dazHttPjcZA==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'test@test.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/
+Completed 302 Found in 100ms (ActiveRecord: 0.6ms | Allocations: 4568)
+
+
+Started GET "/" for 172.20.0.2 at 2020-06-01 14:05:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 254.7ms | Allocations: 240588)
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.4ms | Allocations: 241053)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `app_dashboard_index_path' for #<#<Class:0x0000563232fa58b0>:0x00007fb8742c7c00>):
+    4: <% if current_user.nil? %>
+    5:   <%= link_to new_user_session_path, class: 'login-button' do %>Sign in<% end %>
+    6: <% else %>
+    7:   <%= link_to app_dashboard_index_path, class: 'login-button' do %>Go to App<% end %>
+    8:   <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
+    9: <% end %>
+  
+app/views/home/index.html.erb:7
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/movies/new" for 172.20.0.2 at 2020-06-01 14:05:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 30.7ms | ActiveRecord: 2.9ms | Allocations: 24844)
+
+
+Started POST "/movies" for 172.20.0.2 at 2020-06-01 14:07:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"5q2m8TIfEzFCPt16wFIlHmyENBvMSvFzT4lRXSqRhpPFHScj5e8QeIktqDGTDVZl5OMNKHfxBih2JlzQnwSX/g==", "movie"=>{"title"=>"Tenet", "year"=>"2020", "genre"=>"Action, Sci-Fi, Thriller", "plot"=>"Armed with only one word -- Tenet -- and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.", "director"=>"Christopher Nolan", "poster"=>"https://m.media-amazon.com/images/M/MV5BNmMwYzFlNTEtYTc0NC00NGY4LTgzNzItZGFiYTViY2QzNzU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg", "actors"=>"John David Washington, Robert Pattinson, Elizabeth Debicki", "runtime"=>"150"}, "commit"=>"Save movie"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[36mMovie Create (0.5ms)[0m  [1m[32mINSERT INTO `movies` (`title`, `year`, `plot`, `genre`, `director`, `actors`, `poster`, `runtime`, `created_at`, `updated_at`) VALUES ('Tenet', '2020', 'Armed with only one word -- Tenet -- and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.', 'Action, Sci-Fi, Thriller', 'Christopher Nolan', 'John David Washington, Robert Pattinson, Elizabeth Debicki', 'https://m.media-amazon.com/images/M/MV5BNmMwYzFlNTEtYTc0NC00NGY4LTgzNzItZGFiYTViY2QzNzU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg', '150', '2020-06-01 14:07:43.720672', '2020-06-01 14:07:43.720672')[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/movies_controller.rb:11:in `create'
+Redirected to http://ror.lndo.site/movies
+Completed 302 Found in 11ms (ActiveRecord: 2.5ms | Allocations: 4472)
+
+
+Started GET "/movies" for 172.20.0.2 at 2020-06-01 14:07:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 0.5ms | Allocations: 5780)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:07:47 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2941)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.0ms | Allocations: 5792)
+
+
+  
+ActionView::Template::Error (undefined method `writer' for #<Movie:0x0000563232017498>):
+    14:       <p><%= @movie.director %></p>
+    15:       <p><%= @movie.actors %></p>
+    16:       <p><%= @movie.plot %></p>
+    17:       <p><%= @movie.writer %></p>
+    18:     </div>
+    19:   </div>
+    20: 
+  
+app/views/movies/show.html.erb:17
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:07:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 241)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 36.1ms | ActiveRecord: 0.8ms | Allocations: 7777)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 241)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.5ms | ActiveRecord: 0.8ms | Allocations: 7769)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.8ms | Allocations: 6185)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 1.0ms | Allocations: 6192)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:14 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 30.6ms | ActiveRecord: 0.8ms | Allocations: 6195)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.6ms | ActiveRecord: 0.8ms | Allocations: 7776)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:40 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 27.9ms | ActiveRecord: 1.1ms | Allocations: 6201)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:51 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 241)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 0.7ms | Allocations: 7756)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:51 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.7ms | Allocations: 6182)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.8ms | ActiveRecord: 0.8ms | Allocations: 6195)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:08:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.4ms | ActiveRecord: 0.7ms | Allocations: 6201)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:09:27 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 26.9ms | ActiveRecord: 1.1ms | Allocations: 6185)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:09:28 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 0.6ms | Allocations: 6195)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:09:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 228)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 0.6ms | Allocations: 7753)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:09:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 34.2ms | ActiveRecord: 0.6ms | Allocations: 7759)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:09:59 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 32.7ms | ActiveRecord: 0.8ms | Allocations: 6184)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:10:14 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.8ms | Allocations: 7771)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:10:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.6ms | Allocations: 6194)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:10:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.8ms | Allocations: 7761)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:11:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.2ms | ActiveRecord: 0.8ms | Allocations: 7761)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:11:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.2ms | ActiveRecord: 1.0ms | Allocations: 6188)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:11:17 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 39.5ms | ActiveRecord: 1.2ms | Allocations: 6185)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:11:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.8ms | ActiveRecord: 1.2ms | Allocations: 6190)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:11:59 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 0.6ms | Allocations: 6185)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 34.6ms | ActiveRecord: 1.3ms | Allocations: 6197)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.6ms | Allocations: 6207)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.9ms | Allocations: 6191)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 27.2ms | ActiveRecord: 1.0ms | Allocations: 6179)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 32)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.7ms | Allocations: 6189)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:12:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1479ms (Views: 1444.7ms | ActiveRecord: 3.8ms | Allocations: 165205)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:13:47 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 45.6ms | ActiveRecord: 0.9ms | Allocations: 7804)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:14:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 0.8ms | Allocations: 7772)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:14:19 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.7ms | ActiveRecord: 0.9ms | Allocations: 6212)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:14:46 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 310ms (Views: 274.5ms | ActiveRecord: 4.2ms | Allocations: 75761)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:15:23 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 244)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 38.2ms | ActiveRecord: 0.7ms | Allocations: 7783)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:15:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.7ms | ActiveRecord: 0.6ms | Allocations: 7776)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:16:16 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 36.8ms | ActiveRecord: 0.7ms | Allocations: 7760)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:16:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.9ms | ActiveRecord: 0.5ms | Allocations: 7785)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:16:40 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.7ms | Allocations: 6217)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:16:48 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.2ms | ActiveRecord: 0.5ms | Allocations: 7789)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:16:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 247)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 37.3ms | ActiveRecord: 0.8ms | Allocations: 7758)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:17:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 33.6ms | ActiveRecord: 0.7ms | Allocations: 7756)
+
+
+Started GET "/admin" for 172.20.0.2 at 2020-06-01 14:20:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `movies`[0m
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY `movies`.`id` DESC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (Duration: 10.2ms | Allocations: 14721)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_head.html.haml (Duration: 844.3ms | Allocations: 151455)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 2.9ms | Allocations: 4321)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_navigation.html.haml (Duration: 6.7ms | Allocations: 9761)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 2.6ms | Allocations: 3364)
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml (Duration: 2.8ms | Allocations: 4912)
+Completed 200 OK in 1274ms (Views: 878.4ms | ActiveRecord: 3.8ms | Allocations: 293180)
+
+
+Started GET "/admin/movie?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:20:27 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMovie Load (0.9ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY movies.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 31.6ms | Allocations: 42841)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 1.5ms | Allocations: 48665)
+
+
+Started GET "/admin/movie/new?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:20:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 2.7ms | Allocations: 1901)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 151)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_submit_buttons.html.haml (Duration: 4.8ms | Allocations: 9797)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (Duration: 24.4ms | Allocations: 21151)
+Completed 200 OK in 37ms (Views: 30.5ms | ActiveRecord: 0.9ms | Allocations: 26256)
+
+
+Started POST "/admin/movie/new" for 172.20.0.2 at 2020-06-01 14:20:37 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"authenticity_token"=>"BH8YEQOqvVr65h2WPgv+jPnHzNzDf4wTkQrB4mN8Ec+Xe3SOCNdYfc2sLdG0LDP+U/NY3sDQ3fZx5YkYTAtlbQ==", "movie"=>{"title"=>"", "year"=>"", "plot"=>"", "genre"=>"", "director"=>"", "actors"=>"", "poster"=>"", "runtime"=>""}, "return_to"=>"http://ror.lndo.site/admin/movie", "_continue"=>"", "model_name"=>"movie"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+Redirected to http://ror.lndo.site/admin/movie
+Filter chain halted as :check_for_cancel rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms | Allocations: 1842)
+
+
+Started GET "/admin/movie" for 172.20.0.2 at 2020-06-01 14:20:37 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"movie"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/application
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY movies.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/application (Duration: 15.6ms | Allocations: 8870)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_head.html.haml (Duration: 50.1ms | Allocations: 30819)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 2.0ms | Allocations: 1030)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_navigation.html.haml (Duration: 3.0ms | Allocations: 1229)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 16.0ms | Allocations: 1167)
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml (Duration: 1.9ms | Allocations: 2024)
+Completed 200 OK in 97ms (Views: 91.3ms | ActiveRecord: 1.1ms | Allocations: 47268)
+
+
+Started GET "/admin/movie/1?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:20:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.9ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (Duration: 4.8ms | Allocations: 5449)
+Completed 200 OK in 21ms (Views: 11.3ms | ActiveRecord: 1.6ms | Allocations: 12406)
+
+
+Started GET "/admin/movie/1/show_in_app" for 172.20.0.2 at 2020-06-01 14:20:46 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show_in_app as HTML
+  Parameters: {"model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movies/1
+Completed 302 Found in 9ms (ActiveRecord: 1.3ms | Allocations: 3639)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:20:46 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.7ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 31.0ms | ActiveRecord: 1.2ms | Allocations: 6194)
+
+
+Started GET "/admin/movie/1" for 172.20.0.2 at 2020-06-01 14:20:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.9ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/application (Duration: 1.0ms | Allocations: 1908)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_head.html.haml (Duration: 29.9ms | Allocations: 30497)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 1.2ms | Allocations: 1039)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_navigation.html.haml (Duration: 1.9ms | Allocations: 1250)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 1.0ms | Allocations: 1177)
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/layouts/rails_admin/pjax.html.haml (Duration: 2.6ms | Allocations: 2869)
+Completed 200 OK in 47ms (Views: 40.6ms | ActiveRecord: 1.6ms | Allocations: 42056)
+
+
+Started GET "/admin/movie?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:20:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY movies.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 9.8ms | Allocations: 8867)
+Completed 200 OK in 25ms (Views: 19.5ms | ActiveRecord: 1.0ms | Allocations: 13449)
+
+
+Started GET "/admin/movie/1/edit?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:21:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.7ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 147)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 148)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 149)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 149)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 148)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.2ms | Allocations: 149)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 149)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_form_field.html.haml (Duration: 0.1ms | Allocations: 148)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/_submit_buttons.html.haml (Duration: 0.7ms | Allocations: 720)
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (Duration: 12.2ms | Allocations: 8126)
+Completed 200 OK in 28ms (Views: 18.1ms | ActiveRecord: 1.3ms | Allocations: 15610)
+
+
+Started GET "/admin/movie/1?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:21:08 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (Duration: 1.1ms | Allocations: 1906)
+Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 1.3ms | Allocations: 8582)
+
+
+Started GET "/admin/movie/1/show_in_app" for 172.20.0.2 at 2020-06-01 14:21:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show_in_app as HTML
+  Parameters: {"model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movies/1
+Completed 302 Found in 8ms (ActiveRecord: 0.9ms | Allocations: 3628)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:21:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.8ms | ActiveRecord: 0.7ms | Allocations: 6192)
+
+
+Started GET "/admin/movie/1/show_in_app" for 172.20.0.2 at 2020-06-01 14:21:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show_in_app as HTML
+  Parameters: {"model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movies/1
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms | Allocations: 3627)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:21:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 28.4ms | ActiveRecord: 1.1ms | Allocations: 6177)
+
+
+Started GET "/admin/movie?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:21:54 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY movies.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 9.8ms | Allocations: 8864)
+Completed 200 OK in 20ms (Views: 12.8ms | ActiveRecord: 1.5ms | Allocations: 13443)
+
+
+Started GET "/admin/movie/1/show_in_app" for 172.20.0.2 at 2020-06-01 14:21:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#show_in_app as HTML
+  Parameters: {"model_name"=>"movie", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 ORDER BY `movies`.`id` ASC LIMIT 1[0m
+Redirected to http://ror.lndo.site/movies/1
+Completed 302 Found in 10ms (ActiveRecord: 1.3ms | Allocations: 3616)
+
+
+Started GET "/movies/1" for 172.20.0.2 at 2020-06-01 14:21:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mMovie Load (0.7ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/movies_controller.rb:21:in `show'
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.3ms | ActiveRecord: 1.0ms | Allocations: 6204)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:22:03 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 10.5ms | Allocations: 10904)
+Completed 200 OK in 21ms (Views: 13.6ms | ActiveRecord: 1.3ms | Allocations: 16703)
+
+
+Started GET "/admin/movie?_pjax=%5Bdata-pjax-container%5D" for 172.20.0.2 at 2020-06-01 14:22:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"movie"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:7:in `block (2 levels) in <main>'
+  Rendering /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT `movies`.* FROM `movies` ORDER BY movies.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /usr/local/bundle/gems/rails_admin-2.0.2views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 10.4ms | Allocations: 8855)
+Completed 200 OK in 22ms (Views: 13.5ms | ActiveRecord: 1.7ms | Allocations: 13442)
+
+
+Started GET "/" for 172.20.0.2 at 2020-06-01 15:44:14 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 302.0ms | Allocations: 243433)
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 0.5ms | Allocations: 244816)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `app_dashboard_index_path' for #<#<Class:0x00007fd56460f270>:0x00007fd56460d3a8>):
+    4: <% if current_user.nil? %>
+    5:   <%= link_to new_user_session_path, class: 'login-button' do %>Sign in<% end %>
+    6: <% else %>
+    7:   <%= link_to app_dashboard_index_path, class: 'login-button' do %>Go to App<% end %>
+    8:   <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
+    9: <% end %>
+  
+app/views/home/index.html.erb:7
