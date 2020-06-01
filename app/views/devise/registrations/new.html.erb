@@ -10,7 +10,7 @@
     </div>
 
     <div class="mb-6">
-      <%= f.label(:pasls -sword, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
+      <%= f.label(:password, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
       <% if @minimum_password_length %>
       <em>(<%= @minimum_password_length %> characters minimum)</em>
       <% end %><br />
@@ -29,3 +29,4 @@
       <%= link_to("Sign In", new_session_path(resource_name), class: "block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800") %>
     </div>
 <% end %>
+</div>
