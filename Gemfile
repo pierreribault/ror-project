@@ -56,8 +56,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Require for Mysql
 gem 'yaml_db'
 gem 'mysql2'
-
-# Auth
-gem 'devise'
-gem 'rails_admin', '~> 2.0'
-gem 'cancancan'

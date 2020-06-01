@@ -10,35 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_01_121222) do
-
-  create_table "movies", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
-    t.string "title", null: false
-    t.string "year", null: false
-    t.string "plot", null: false
-    t.string "genre", null: false
-    t.string "director"
-    t.string "actors"
-    t.string "poster", null: false
-    t.string "runtime", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
-    t.string "email", default: "", null: false
-    t.string "encrypted_password", default: "", null: false
-    t.string "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.string "address"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.boolean "superadmin_role", default: false
-    t.boolean "supervisor_role", default: false
-    t.boolean "user_role", default: true
-    t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end

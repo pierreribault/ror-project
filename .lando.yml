@@ -23,11 +23,6 @@ services:
         PMA_HOST: database
         PMA_USER: mariadb
         PMA_PASSWORD: mariadb
-  mailhog:
-    type: mailhog:v1.0.0
-    portforward: true
-    hogfrom:
-      - ruby
 
 tooling:
   rails:
@@ -42,5 +37,3 @@ proxy:
     - pma-ror.lndo.site
   ruby:
     - ror.lndo.site:3000
-  mailhog:
-    - mailhog-ror.lndo.site
