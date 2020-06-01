@@ -13,7 +13,16 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
 
       ## Rememberable
       t.datetime :remember_created_at
-      t.string :address
+
+      ## Other
+      t.string :firstname, null: false
+      t.string :lastname, null: false
+      t.string :address, null: false
+
+      ## Role
+      t.boolean :superadmin_role, default: false
+      t.boolean :supervisor_role, default: false
+      t.boolean :user_role, default: true
 
       ## Trackable
       # t.integer  :sign_in_count, default: 0, null: false
@@ -44,6 +53,26 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
 
     User.create! do |u|
       u.email     = 'test@test.com'
+      u.firstname = 'Theo'
+      u.lastname = 'Guinebertier'
+      u.address = '7 Rue de bourgogne 95100 Argenteuil'
+      u.superadmin_role = true
+      u.password    = 'password'
+    end
+
+    User.create! do |u|
+      u.email     = 'test2@test.com'
+      u.firstname = 'Pierre'
+      u.lastname = 'Ribault'
+      u.address = '7 Rue de bourgogne 95100 Argenteuil'
+      u.password    = 'password'
+    end
+
+    User.create! do |u|
+      u.email     = 'test3@test.com'
+      u.firstname = 'Thibeault'
+      u.lastname = 'Chenu'
+      u.address = '7 Rue de bourgogne 95100 Argenteuil'
       u.password    = 'password'
     end
   end
