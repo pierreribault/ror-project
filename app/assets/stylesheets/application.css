@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('/assets/fonts/Gilroy-ExtraBold.otf');
+    font-family: 'GilroyLight';
+    src: url('/assets/fonts/Gilroy-Light.otf');
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#F2F2F2;
+    margin:0;
+    padding:0;
+}
+
+.gradient-home-page{
+ background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-home-page{
+    background-color: #FE0F70;
+}
+
+.home-page-title{
+    background: -webkit-linear-gradient(#ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'GilroyBold', 'Anton';
+}
