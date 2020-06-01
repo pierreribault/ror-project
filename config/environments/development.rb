@@ -62,4 +62,19 @@ Rails.application.configure do
 
   # Allow requests to hostname
   config.hosts << "ror.lndo.site"
+
+  config.action_mailer.default_url_options = { host: 'ror.lndo.site' }
+
+  config.action_mailer.perform_caching = false
+
+  config.action_mailer.perform_deliveries = true
+
+  config.action_mailer.raise_delivery_errors = true
+
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = {
+      address:       'ror_mailhog_1',
+      port:          '1025',
+  }
 end
