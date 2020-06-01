@@ -13,25 +13,23 @@
  *= require_tree .
  *= require_self
  */
-
-@font-face {
-    font-family: 'GilroyBold';
-    src: url('/assets/fonts/Gilroy-ExtraBold.otf');
-    font-family: 'GilroyLight';
-    src: url('/assets/fonts/Gilroy-Light.otf');
-}
-
 body{
     font-family: 'Montserrat', sans-serif;
-    color:#F2F2F2;
     margin:0;
     padding:0;
+    background: #0f0c29;
 }
 
-.gradient-home-page{
- background: #0f0c29; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.h-movie{
+  height: 430px;
+}
+
+.h-movie-first{
+  height: 630px;
+}
+
+.bg-F2{
+  background-color: #F2F2F2;
 }
 
 .btn-home-page{
@@ -39,8 +37,71 @@ body{
 }
 
 .home-page-title{
-    background: -webkit-linear-gradient(#ee0979, #ff6a00);
+    background: -webkit-linear-gradient(#ee0979 , #f6e58d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'GilroyBold', 'Anton';
+    font-family: 'Archivo Black';
+}
+
+.downArrow{
+	position: fixed;
+	bottom: 45%;
+	left: 50%;
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }

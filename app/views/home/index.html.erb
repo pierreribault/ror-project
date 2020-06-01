@@ -1,26 +1,63 @@
 <header class="gradient-home-page h-screen">
-  
   <nav>
     <ul class="flex w-screen justify-around items-center">
-    <li><h1 class="text-3xl font-bold">Movy</h1></li>
-<% if current_user.nil? %>
-    <%= link_to new_user_session_path, class: 'login-button' do %> <button class="btn-home-page text-white font-bold py-2 px-4 rounded">Sign in</button> <% end %>
-<% else %>
-  <%= link_to movies_path, class: 'login-button' do %>Go to App<% end %>
-  <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
-<% end %>
+    <li>
+      <h1 class="text-3xl font-bold text-white">Movy</h1>
+    </li>
+      <% if current_user.nil? %>
+          <%= link_to new_user_session_path, class: 'login-button' do %> 
+            <button class="btn-home-page text-white font-bold py-2 px-4 rounded">Sign in</button> 
+          <% end %>
+      <% else %>
+        <%= link_to movies_path, class: 'login-button' do %>
+          Go to App
+        <% end %>
+        <%= link_to destroy_user_session_path, method: :delete do %>
+          Log out
+        <% end %>
+      <% end %>
     </ul>
   </nav>
 
-<div class="flex flex-col mt-12 mb-4">
-  <h1 class="home-page-title text-6xl	text-center">Find and Share you best movie</h1>
-  <div class="flex flex-1 justify-center items-center mt-8">
-    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqTrzB-zH0wn0j_vPh7oySR9B0Ot_HMsTZL40LclgJymYEvgQB" class="m-3 rounded w-2/12 shadow-2xl" />
-    <img src="https://media.senscritique.com/media/000018537250/source_big/Le_Chant_du_loup.jpg" class="m-3 rounded w-3/12 shadow-2xl" />
-    <img src="https://fr.web.img6.acsta.net/pictures/20/02/10/16/10/5324372.jpg" class="m-3 rounded w-2/12 shadow-2xl" />
+  <div class="flex flex-col mt-12 mb-4">
+    <h1 class="home-page-title text-6xl	text-center">Find and Share you best movie</h1>
+    <div class="flex flex-1 justify-center items-center mt-8">
+      <img src="https://img3.cdn.cinoche.com/images/528ceb9a50125bed7ee7e41856aa3cfd.jpg" class="h-movie opacity-50 m-3 rounded w-2/12 shadow-2xl" />
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqTrzB-zH0wn0j_vPh7oySR9B0Ot_HMsTZL40LclgJymYEvgQB" class="h-movie opacity-50 m-3 rounded w-2/12 shadow-2xl" />
+      <img src="https://media.senscritique.com/media/000018537250/source_big/Le_Chant_du_loup.jpg" class="h-movie-first m-3 rounded w-3/12 shadow-2xl" />
+      <img src="https://fr.web.img6.acsta.net/pictures/20/02/10/16/10/5324372.jpg" class="h-movie opacity-50 m-3 rounded w-2/12 shadow-2xl" />
+      <img src="https://miro.medium.com/max/675/1*LLiuBVqjoB0hEkKRNn6Ojw.png" class="h-movie opacity-50 m-3 rounded w-2/12 shadow-2xl" />
+    </div>
   </div>
-</div>
 
+  <div class="downArrow bounce absolute bottom-0 flex items-center justify-center">
+    <%= image_tag "arrow-down.svg", alt: "arrow", width: 48, height: 48 %>
+  </div>
 
-
+  <div class="w-screen flex justify-around mt-48 text-gray-800">
+      
+      <div class="p-8 rounded bg-F2 w-1/4 h-64">
+        <div class="flex justify-between items-center">
+          <h2>Find</h2>
+          <%= image_tag "search.svg", alt: "search", width: 32, height: 32 %>
+        </div>
+        <p class="pt-8">Movy offers you thousands of diverse and varied films. Find yours and share it with your friends.</p>
+      </div>
+      
+      <div class="p-8 rounded bg-F2 w-1/4 h-64">
+        <div class="flex justify-between items-center">
+          <h2>Borrow</h2>
+          <%= image_tag "borrow.svg", alt: "borrow", width: 32, height: 32 %>
+        </div>
+        <p class="pt-8">Our community offers you its best movies. Find yours and borrow it.</p>
+      </div>
+      
+      <div class="p-8 rounded bg-F2 w-1/4 h-64">
+        <div class="flex justify-between items-center">
+          <h2>Share</h2>
+          <%= image_tag "share.svg", alt: "share", width: 32, height: 32 %>
+        </div>
+        <p class="pt-8">Do you want to be part of our community? Share with us and submit your best movies. </p>
+      </div>
+  </div>
 </header>
