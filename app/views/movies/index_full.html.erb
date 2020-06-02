@@ -1,0 +1,56 @@
+<div class="w-full flex flex-wrap px-32 py-12">
+  <div class="px-12 w-full mb-4">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
+      <h3 class="ml-4 font-bold text-md text-darkText">Movies result</h3>
+      <% if @movies_title.length > 0 %>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_title.length %> Result(s)</p>
+      <% else %>
+        <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
+      <% end %>
+    </div>
+  </div>
+  <div class="w-full flex flex-wrap">
+    <% @movies_title.each do |movie| %>
+      <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
+        <%= render 'layouts/movie_poster', 'movie': movie %>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="px-12 w-full mb-4">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "user.svg", alt: "actors", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">Actors result</h3>
+      <% if @movies_actors.length > 0 %>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_actors.length %> Result(s)</p>
+      <% else %>
+        <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
+      <% end %>
+    </div>
+  </div>
+  <div class="w-full flex flex-wrap">
+    <% @movies_actors.each do |movie| %>
+      <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
+        <%= render 'layouts/movie_poster', 'movie': movie %>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="px-12 w-full mb-4">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "user.svg", alt: "director", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">Directors result</h3>
+      <% if @movies_director.length > 0 %>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_director.length %> Result(s)</p>
+      <% else %>
+        <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
+      <% end %>
+    </div>
+  </div>
+  <div class="w-full flex flex-wrap">
+    <% @movies_director.each do |movie| %>
+      <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
+        <%= render 'layouts/movie_poster', 'movie': movie %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

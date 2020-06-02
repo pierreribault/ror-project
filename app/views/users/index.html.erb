@@ -1,41 +1,29 @@
-<div class="flex">
-  <div class="w-24 h-screen fixed" style="background: #1F2F55">
-    <!-- Sidebar -->
-  </div>
-  <div class="w-full pl-24">
-    <div class="w-full h-20" style="background: #16274D">
-      <!-- Search -->
+<div class="w-full flex flex-wrap px-32 py-12">
+  <div class="px-12 w-full mb-20 flex justify-between">
+    <div class="py-5 px-20 bg-darkThird">
+      <p class="text-2xl font-bold text-pinkPrincipal"><%= @user.movie.length %> movies</p>
     </div>
-    <div class="w-full flex flex-wrap px-32 py-12">
-      <div class="px-12 w-full mb-20 flex justify-between">
-        <div class="py-5 px-20" style="background: #16274D">
-          <p class="text-2xl font-bold" style="color: #FE0F70"><%= @user.movie.length %> movies</p>
-        </div>
-        <div class="my-auto">
-          <button class="rounded-full py-2 px-10 text-white" style="background: #FE0F70">+ Add a film</button>
-        </div>
-      </div>
-      <div class="px-12 w-full">
-        <div class="w-full flex p-3" style="background: #16274D">
-          <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
-          <h3 class="ml-4 text-white font-bold text-md" style="color: #59698F">My movies</h3>
-        </div>
-      </div>
-      <% if @user.movie.length == 0 %>
-        <p> No movie </p>
-      <% else %>
-        <div class="w-full flex flex-wrap">
-        <% @user.movie.each do |movie| %>
-          <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
-            <div class="px-12 py-10">
-              <img src="<%= movie.poster %>" class="object-cover w-full" style="height: 350px" alt="<%= movie.title %>" />
-              <h2 class="mt-3 mb-1 text-lg uppercase text-white"><%= movie.title %></h2>
-              <p class="text-md" style="color: #59698F"><%= movie.year %></p>
-            </div>
-          <% end %>
-        <% end %>
-        </div>
+    <div class="my-auto">
+      <%= link_to videotec_add_url, class:'card w-1/6' do %>
+        <button class="rounded-full py-2 px-10 text-white bg-pinkPrincipal">+ Add a movie</button>
       <% end %>
     </div>
   </div>
+  <div class="px-12 w-full">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">My movies</h3>
+    </div>
+  </div>
+  <% if @user.movie.length == 0 %>
+    <p> No movie </p>
+  <% else %>
+    <div class="w-full flex flex-wrap">
+      <% @user.movie.each do |movie| %>
+        <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
+          <%= render 'layouts/movie_poster', 'movie': movie %>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
 </div>

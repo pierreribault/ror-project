@@ -1,0 +1,30 @@
+<div class="w-24 h-screen fixed bg-darkSecondary">
+  <p></p>
+  <div class="w-full h-20 flex">
+    <h1 class="text-2xl font-bold text-white m-auto">Movy</h1>
+  </div>
+  <div class="flex flex-col mt-12">
+    <%= link_to movies_url do %>
+      <% if request.original_fullpath == movies_path %>
+        <div class="flex w-full border-l-2 border-pinkPrincipal p-2 mb-5">
+          <%= image_tag 'movie_actif.svg', alt: "movie", width: 32, height: 32, class: "ml-5"%>
+        </div>
+      <% else %>
+        <div class="flex w-full border-l-2 border-transparent p-2 mb-5">
+          <%= image_tag 'movie.svg', alt: "movie", width: 32, height: 32, class: "ml-5"%>
+        </div>
+      <% end %>
+    <% end %>
+    <%= link_to videotec_url do %>
+      <% if request.original_fullpath == videotec_path %>
+        <div class="flex w-full border-l-2 border-pinkPrincipal p-2 mb-5">
+          <%= image_tag 'list_actif.svg', alt: "list", width: 32, height: 32, class: "ml-5"%>
+        </div>
+      <% else %>
+        <div class="flex w-full border-l-2 border-transparent p-2 mb-5">
+          <%= image_tag 'list.svg', alt: "list", width: 32, height: 32, class: "ml-5"%>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
