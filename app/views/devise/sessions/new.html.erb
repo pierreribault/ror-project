@@ -1,30 +1,29 @@
 <div class="flex h-screen">
-<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "bg-white shadow-md rounded-lg px-8 pt-6 pb-8 m-auto xl:w-1/3 w-1/2"}) do |f| %>
-    <h2 class="text-center text-lg mb-6">Sign In</h2>
+<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "bg-darkSecondary shadow-md text-white font-bold rounded-lg px-8 pt-6 pb-8 m-auto w-modal"}) do |f| %>
+    <h2 class="text-center text-2xl mb-6">Sign In</h2>
+    <%= render "devise/shared/error_messages", resource: resource %>
 
     <div class="mb-4">
-      <%= f.label(:email, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
-      <%= f.email_field(:email, autofocus: true, autocomplete: "email", class: "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline") %>
+      <%= f.label(:email, { class: "block pl-8 text-white text-sm font-bold mb-2"}) %>
+      <%= f.email_field(:email, autofocus: true, autocomplete: "email", class: "shadow appearance-none rounded-full w-full py-2 px-8 text-white bg-darkPrincipal leading-tight focus:outline-none focus:shadow-outline") %>
     </div>
 
     <div class="mb-6">
-      <%= f.label(:password, { class: "block text-gray-700 text-sm font-bold mb-2"}) %>
-      <%= f.password_field(:password, autocomplete: "current-password", class: "shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline") %>
+      <%= f.label(:password, { class: "block pl-8 text-white text-sm font-bold mb-2"}) %>
+      <%= f.password_field(:password, autocomplete: "current-password", class: "shadow appearance-none rounded-full w-full py-2 px-8 text-white bg-darkPrincipal mb-3 leading-tight focus:outline-none focus:shadow-outline") %>
     </div>
 
     <% if devise_mapping.rememberable? %>
-      <div class="mb-4">
+      <div class="mb-4 ml-8">
         <%= f.check_box(:remember_me, class: "mr-2 leading-tight") %>
-        <%= f.label(:remember_me, class: "text-gray-500 font-bold text-sm") %>
+        <%= f.label(:remember_me, class: "text-white font-bold text-sm") %>
       </div>
     <% end %>
 
     <div class="text-center">
-      <div class="actions mb-4 bg-blue-500 hover:bg-blue-700 text-white  py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-        <%= f.submit("Sign In", class: "bg-transparent font-bold") %>
-      </div>
-      <%= link_to("Forgot Password?", new_password_path(resource_name), class: "mb-2 block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800") %>
-      <%= link_to("Sign up", new_registration_path(resource_name), class: "block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800") %>
+      <%= f.submit("Sign In", class: "bg-pinkPrincipal mb-2 text-white py-2 px-4 w-full rounded-full focus:outline-none focus:shadow-outline font-bold") %>
+      <%= link_to("Forgot Password?", new_password_path(resource_name), class: "mb-2 block align-baseline font-bold text-sm text-pinkPrincipal") %>
+      <%= link_to("Sign up", new_registration_path(resource_name), class: "block align-baseline font-bold text-sm text-pinkPrincipal") %>
     </div>
   <% end %>
 </div>

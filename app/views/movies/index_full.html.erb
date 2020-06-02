@@ -4,7 +4,7 @@
       <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
       <h3 class="ml-4 font-bold text-md text-darkText">Movies result</h3>
       <% if @movies_title.length > 0 %>
-        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_title.length %> Result(s)</p>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_title.length %> result(s)</p>
       <% else %>
         <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
       <% end %>
@@ -22,7 +22,7 @@
       <%= image_tag "user.svg", alt: "actors", width: 24, height: 24 %>
       <h3 class="ml-4 text-white font-bold text-md text-darkText">Actors result</h3>
       <% if @movies_actors.length > 0 %>
-        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_actors.length %> Result(s)</p>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_actors.length %> result(s)</p>
       <% else %>
         <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
       <% end %>
@@ -40,7 +40,7 @@
       <%= image_tag "user.svg", alt: "director", width: 24, height: 24 %>
       <h3 class="ml-4 text-white font-bold text-md text-darkText">Directors result</h3>
       <% if @movies_director.length > 0 %>
-        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_director.length %> Result(s)</p>
+        <p class="ml-1 font-bold text-md text-darkText">- <%= @movies_director.length %> result(s)</p>
       <% else %>
         <p class="ml-1 font-bold text-md text-darkText">- No result ...</p>
       <% end %>

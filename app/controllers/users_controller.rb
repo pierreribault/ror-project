@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     user_id = current_user.id.to_s
     MoviesUser.create :user_id => user_id, :movie_id => movie_id
 
+    flash[:success] = 'Movie was successfully added.'
     redirect_to videotec_path
   end
 end
