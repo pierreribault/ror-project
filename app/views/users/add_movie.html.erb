@@ -8,7 +8,7 @@
       <div class="flex w-2/3">
         <p class="text-white my-auto mr-10">Find a movie:</p>
         <div class="w-2/5">
-          <select name="user[movie_id]" id="user_movie_id" class="block appearance-none w-full text-center text-md text-white bg-darkSecondary px-10 py-3 rounded-full leading-tight focus:outline-none">
+          <select name="user[movie_id]" id="user_movie_id" class="block appearance-none w-full text-center text-md text-white bg-darkSecondary px-10 py-3 rounded-full leading-tight focus:outline-none focus:shadow-outline">
             <% @movies.each do |movie| %>
               <option value="<%= movie.id %>"><%= movie.title %></option>
             <% end %>
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div>
-        <%= f.submit("+ Add the movie", class: "rounded-full py-2 px-10 text-white bg-pinkPrincipal") %>
+        <%= f.submit("+ Add the movie", class: "rounded-full py-2 px-10 text-white bg-pinkPrincipal focus:outline-none focus:shadow-outline") %>
       </div>
     <% end %>
   </div>

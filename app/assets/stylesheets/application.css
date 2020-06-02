@@ -15,9 +15,6 @@
  */
 body{
     font-family: 'Montserrat', sans-serif;
-    margin:0;
-    padding:0;
-    background: #0f0c29;
 }
 
 .h-movie{
@@ -28,12 +25,26 @@ body{
   height: 630px;
 }
 
-.bg-F2{
-  background-color: #F2F2F2;
+#toast-container>div{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
-.btn-home-page{
-    background-color: #FE0F70;
+.toast-error {
+    background-color: #E53E3E !important;
+}
+
+.toast-warning {
+    background-color: #F6AD55 !important;
+}
+
+.toast-success {
+    background-color: #48BB78 !important;
+}
+
+.toast-info {
+    background-color: #4299E1 !important;
 }
 
 .home-page-title{
@@ -41,6 +52,10 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Archivo Black';
+}
+
+.w-modal{
+    width: 500px;
 }
 
 .downArrow{
