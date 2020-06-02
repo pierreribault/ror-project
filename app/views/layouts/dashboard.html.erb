@@ -21,6 +21,12 @@
           <% end %>
       </script>
     <% end %>
-    <%= yield %>
+    <div class="flex">
+      <%= render "layouts/sidebar" %>
+      <div class="w-full pl-24">
+        <%= render "layouts/searchbar" %>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
