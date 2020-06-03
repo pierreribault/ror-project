@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_01_205013) do
+ActiveRecord::Schema.define(version: 2020_06_02_184819) do
+
+  create_table "borrows", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.integer "movies_user_id", null: false
+    t.integer "user_id", null: false
+    t.boolean "status", default: false, null: false
+    t.date "deadline", null: false
+  end
 
   create_table "movies", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "title", null: false

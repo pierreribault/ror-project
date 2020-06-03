@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get 'videotec', to: 'users#index'
   get 'videotec/add', to: 'users#add_movie'
   post 'videotec', to: 'users#save_movie'
+  get 'borrows/new', to: 'borrows#new'
+  post 'borrows', to: 'borrows#create'
 
   root :to => "home#index"
 end
