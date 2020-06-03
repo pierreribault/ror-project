@@ -1,9 +1,12 @@
 class BorrowNotifierMailer < ApplicationMailer
   default :from => 'no-reply@movy.com'
 
-  def send_request_email(user)
+  def send_request_email(user, movie, deadline, owner)
     @user = user
-    mail( :to => @user.email, :subject => 'A new borrowing request arrived' )
+    @movie = movie
+    @deadline = deadline
+    @owner = owner
+    mail( :to => @owner.email, :subject => 'A new borrowing request is arrived' )
   end
 
   def send_request_accepted(user, movie, borrow, owner)
