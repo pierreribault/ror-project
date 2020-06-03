@@ -15,5 +15,17 @@ class MoviesController < ApplicationController
 
   def show
     @movie = Movie.find(params[:id])
+    @user = Array.new
+
+    @movie.user.each do |user|
+      user_info = Hash.new
+
+      user_info["user"] = user
+      user_info["available"] = !Borrow.where(movie_id: @movie.id.to_s).where(user_id: user.id.to_s).where("deadline > '#{Date.current}'").where("status > 1").exists?
+      user_info["shared"] = Borrow.where(movie_id: @movie.id.to_s).where(user_id: user.id.to_s).where(status: 3).count
+
+      @user.push(user_info)
+    end
+
   end
 end

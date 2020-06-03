@@ -12,7 +12,8 @@
       <p class="text-md text-white my-auto"><%= @movie.title %> </p>
       <p class="text-md text-white my-auto"><%= @user.firstname %> <%= @user.lastname %> </p>
 
-      <%= f.hidden_field(:movies_user_id, :value => @movies_user.id.to_s) %>
+      <%= f.hidden_field(:movie_id, :value => @movie.id.to_s) %>
+      <%= f.hidden_field(:owner_id, :value => @user.id.to_s) %>
       <%= f.date_field(:deadline, value: "deadline", min: Date.today, required: true, class: "bg-transparent text-white focus:outline-none") %>
       <div class="my-auto">
         <%= f.submit("Send the request", class: "rounded-full py-2 px-10 text-white bg-pinkPrincipal focus:outline-none focus:shadow-outline") %>
