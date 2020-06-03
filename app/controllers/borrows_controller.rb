@@ -10,9 +10,14 @@ class BorrowsController < ApplicationController
   def create
     Borrow.create :movie_id => params[:borrow][:movie_id], :owner_id => params[:borrow][:owner_id], :user_id => current_user.id, :status => false, :deadline => params[:borrow][:deadline]
 
+    owner = User.find(params[:borrow][:owner_id])
+    user = User.find(current_user.id)
+    movie = Movie.find(params[:borrow][:movie_id])
+
+
     flash[:success] = 'Your request has been sent.'
 
-    BorrowNotifierMailer.send_request_email(User.find(params[:borrow][:owner_id])).deliver
+    BorrowNotifierMailer.send_request_email(user, movie, params[:borrow][:deadline], owner).deliver
     redirect_to videotec_path
   end
 
