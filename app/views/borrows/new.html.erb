@@ -1,0 +1,11 @@
+<div class="flex flex-col text-white">
+  <p>Ask to borrow a movie</p>
+  <p class="text-md text-white my-auto"><%= @movie.title %> </p>
+  <p class="text-md text-white my-auto"><%= @user.firstname %> <%= @user.lastname %> </p>
+</div>
+
+<%= form_for @borrow, :url => borrows_path, html: { method: :post, class: "flex justify-between mt-10"} do |f| %>
+  <%= f.hidden_field(:movies_user_id, :value => @movies_user.id.to_s) %>
+  <%= date_field("borrow", "deadline") %>
+  <%= f.submit("Ask the movie") %>
+<% end %>

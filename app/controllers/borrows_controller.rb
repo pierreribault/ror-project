@@ -1,22 +1,17 @@
 class BorrowsController < ApplicationController
   layout 'dashboard'
 
-  def form
-    @user_id = params[:user_id]
-    @movie_id = params[:movie_id]
+  def new
+    @borrow = Borrow.new
+    @movies_user = MoviesUser.where(user_id: params[:user_id], movie_id: params[:movie_id]).take()
 
-    @movie = Movie.where(id: [@movie_id])
-    @user = User.where(id: [@user_id])
+    @movie = Movie.find(params[:movie_id])
+    @user = User.find(params[:user_id])
   end
 
-  def store
-    crt_user_id = current_user.id.to_s
-    deadline = params[:deadline]
-    movie_id = params[:movie_id]
+  def create
+    Borrow.create :movies_user_id => params[:borrow][:movies_user_id], :user_id => current_user.id, :status => false, :deadline => params[:borrow][:deadline]
 
-    object = Borrow.new(:movie_user_id => 1, :user_id => 1, :status => false, :deadline => '2020/12/12')
-    object.save
-    
     flash[:success] = 'Your request has been sent.'
     
     redirect_to videotec_path
