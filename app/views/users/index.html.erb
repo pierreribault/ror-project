@@ -1,7 +1,15 @@
 <div class="w-full flex flex-wrap px-32 py-12">
   <div class="px-12 w-full mb-20 flex justify-between">
-    <div class="py-5 px-20 bg-darkThird">
-      <p class="text-2xl font-bold text-pinkPrincipal"><%= @user.movie.length %> movies</p>
+    <div class="flex">
+      <div class="py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-pinkPrincipal"><%= @user.movie.length %> movie(s)</p>
+      </div>
+      <div class="ml-10 py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-green-400"><%= @shared %> shared</p>
+      </div>
+      <div class="ml-10 py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-orange-400"><%= @borrow %> borrowed</p>
+      </div>
     </div>
     <div class="my-auto">
       <%= link_to videotec_add_url, class:'card w-1/6' do %>

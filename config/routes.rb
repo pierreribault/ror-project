@@ -6,9 +6,10 @@ Rails.application.routes.draw do
   get 'movies/:id', to: 'movies#show', as: 'movie'
   get 'videotec', to: 'users#index'
   get 'videotec/add', to: 'users#add_movie'
+  get 'notification', to: 'users#notification'
   post 'videotec', to: 'users#save_movie'
   get 'borrows/new', to: 'borrows#new'
   post 'borrows', to: 'borrows#create'
-
+  post 'borrows/answer', to: 'borrows#edit'
   root :to => "home#index"
 end

@@ -1,3 +1,17 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.accept {
+  background:url('check-circle.svg') no-repeat left center;
+  padding-left:40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.decline {
+  background:url('x-circle.svg') no-repeat left center;
+  padding-left:40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

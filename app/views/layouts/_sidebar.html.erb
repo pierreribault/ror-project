@@ -27,6 +27,17 @@
           </div>
         <% end %>
       <% end %>
+      <%= link_to notification_url do %>
+        <% if request.original_fullpath == notification_path %>
+          <div class="flex w-full border-l-2 border-pinkPrincipal p-2 mb-5">
+            <%= image_tag 'notification_actif.svg', alt: "list", width: 32, height: 32, class: "ml-5"%>
+          </div>
+        <% else %>
+          <div class="flex w-full border-l-2 border-transparent p-2 mb-5">
+            <%= image_tag 'notification.svg', alt: "list", width: 32, height: 32, class: "ml-5"%>
+          </div>
+        <% end %>
+      <% end %>
     </div>
     <div class="flex mb-20">
       <%= link_to destroy_user_session_path, method: :delete do %>

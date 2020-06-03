@@ -1,0 +1,29 @@
+<div class="w-full flex flex-wrap px-32 py-12">
+  <div class="px-12 w-full">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "share.svg", alt: "share", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">My request</h3>
+    </div>
+
+    <% if @notification.length == 0 %>
+      <p class="text-white mt-10 mx-10">No request for the moment, you will be notified when you will receive one.</p>
+    <% else %>
+      <% @notification.each do |notification| %>
+        <%= form_for @borrow, :url => borrows_answer_path, html: { method: :post, class: "flex justify-between mt-10 mx-10"} do |f| %>
+          <div class="w-1/6">
+            <img src="<%= notification["movie"].poster%>" class="w-full h-32 object-cover" alt="<%= notification["movie"].title %>"/>
+          </div>
+          <p class="text-md text-white my-auto"><%= notification["movie"].title %> </p>
+          <p class="text-md text-white my-auto"><%= notification["user"].firstname %> <%= notification["user"].lastname %> </p>
+          <p class="text-md text-white my-auto"><%= notification["notification"].deadline %></p>
+
+          <%= f.hidden_field(:borrow_id, :value => notification["notification"].id.to_s) %>
+          <div class="my-auto">
+            <%= f.submit("Accept", class: "text-white bg-transparent accept focus:outline-none cursor-pointer") %>
+            <%= f.submit("Decline", class: "ml-10 text-white bg-transparent decline focus:outline-none cursor-pointer") %>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

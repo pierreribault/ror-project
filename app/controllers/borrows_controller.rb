@@ -15,4 +15,27 @@ class BorrowsController < ApplicationController
     BorrowNotifierMailer.send_request_email(User.find(params[:borrow][:owner_id])).deliver
     redirect_to videotec_path
   end
+
+  def edit
+    status = (params[:commit] == "Accept") ? 2 : 1
+    request = Borrow.find(params[:borrow][:borrow_id])
+    owner = User.find(request.owner_id)
+    user = User.find(request.user_id)
+    movie = Movie.find(request.movie_id)
+
+
+    request.status = status
+    request.save
+
+    if status == 2
+      BorrowNotifierMailer.send_request_accepted(user, movie, request, owner).deliver
+      BorrowNotifierMailer.send_user_address(user, movie, request, owner).deliver
+      flash[:info] = 'You will receive the address by mail'
+    else
+      BorrowNotifierMailer.send_request_declined(user, movie, request, owner).deliver
+      flash[:success] = 'You have declined the request'
+    end
+
+    redirect_to notification_path
+  end
 end
