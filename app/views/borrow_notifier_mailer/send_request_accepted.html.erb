@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Hello, <%= @user.firstname %> <%= @user.lastname %> 👋!</h1>
+<div>
+  <img src="<%= @movie.poster %>" alt="<%= @movie.title %>">
+  <p>Your request for <%= @movie.title %> has been accepted 🤩, You will receive your movie in few days</p>
+  <p>Don't forget to sent back your movie before the <%= @borrow.deadline %> at this address: <%= @owner.address %></p>
+</div>
+</body>
+</html>

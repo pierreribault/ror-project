@@ -3,6 +3,8 @@ class UsersController < ApplicationController
 
   def index
     @user = current_user
+    @shared = Borrow.where(user_id: @user.id).where(status: 3).count
+    @borrow = Borrow.where(user_id: @user.id).where(status: 2).count
   end
 
   def add_movie
@@ -17,5 +19,21 @@ class UsersController < ApplicationController
 
     flash[:success] = 'Movie was successfully added.'
     redirect_to videotec_path
+  end
+
+  def notification
+    @borrow = Borrow.new
+    @user = current_user
+    @notification = Array.new
+
+    Borrow.where(user_id: @user.id).where(status: 0).each do |notification|
+      request = Hash.new
+
+      request["notification"] = notification
+      request["movie"] = Movie.find(notification.movie_id)
+      request["user"] = User.find(notification.user_id)
+
+      @notification.push(request)
+    end
   end
 end
