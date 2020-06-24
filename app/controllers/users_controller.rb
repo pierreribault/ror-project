@@ -3,8 +3,8 @@ class UsersController < ApplicationController
 
   def index
     @user = current_user
-    @shared = Borrow.where(user_id: @user.id).where(status: 3).count
-    @borrow = Borrow.where(user_id: @user.id).where(status: 2).count
+    @shared = Borrow.where(owner_id: @user.id).where(status: 3).count
+    @borrow = Borrow.where(owner_id: @user.id).where(status: 2).count
   end
 
   def add_movie
