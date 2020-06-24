@@ -24,7 +24,7 @@
     </div>
   </div>
   <% if @user.movie.length == 0 %>
-    <p> No movie </p>
+    <p class="text-white mt-10 mx-10">No movie, use "+ Add a movie" to start your videotec!</p>
   <% else %>
     <div class="w-full flex flex-wrap">
       <% @user.movie.each do |movie| %>
