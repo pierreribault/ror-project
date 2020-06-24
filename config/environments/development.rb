@@ -5,6 +5,8 @@ Rails.application.configure do
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
+  config.reload_classes_only_on_change = false
+
 
   # Do not eager load code on boot.
   config.eager_load = false
@@ -77,4 +79,16 @@ Rails.application.configure do
       address:       'ror_mailhog_1',
       port:          '1025',
   }
+
+  # Disable Rails's static asset server (Apache or nginx will already do this)
+  config.serve_static_assets = true
+
+  # Compress JavaScripts and CSS
+  config.assets.compress = true
+
+  # Don't fallback to assets pipeline if a precompiled asset is missed
+  config.assets.compile = true
+
+  # Generate digests for assets URLs
+  config.assets.digest = true
 end

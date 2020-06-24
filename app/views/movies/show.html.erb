@@ -1,36 +1,57 @@
-<div class="flex">
-  <div class="w-24 h-screen fixed" style="background: #1F2F55">
-    <!-- Sidebar -->
+<div class="w-full px-32 py-12">
+  <div class="flex">
+    <div class="w-1/6 px-12 py-10">
+      <img src="<%= @movie.poster%>" class="w-full" alt="<%= @movie.title %>"/>
+    </div>
+    <div class="w-1/3 my-auto py-12 text-md">
+      <h2 class="text-2xl text-white mb-4 uppercase"><%= @movie.title%></h2>
+      <div>
+        <p class="text-gray-400"><%= @movie.year%> | <%= @movie.genre %></p>
+      </div>
+      <div>
+        <p class="mt-5 text-gray-400">Director: <%= @movie.director %></p>
+        <p class="text-gray-400">Actors: <%= @movie.actors %></p>
+      </div>
+      <div class="mt-5">
+        <p class="text-lg text-gray-400"><%= @movie.plot %></p>
+      </div>
+    </div>
   </div>
-  <div class="w-full pl-24">
-    <div class="w-full h-20" style="background: #16274D">
-      <!-- Search -->
+  <div class="px-12 py-10">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "user.svg", alt: "user", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">Owners list</h3>
     </div>
-    <div class="w-full px-32 py-12">
-      <div class="flex">
-        <div class="w-1/6 px-12 py-10">
-          <img src="<%= @movie.poster%>" class="w-full" alt="<%= @movie.title %>"/>
-        </div>
-        <div class="w-1/3 my-auto py-12 text-md">
-          <h2 class="text-2xl text-white mb-4 uppercase"><%= @movie.title%></h2>
-          <div>
-            <p class="text-gray-400"><%= @movie.year%> | <%= @movie.genre %></p>
+    <% if @user.length == 0 %>
+      <p> No user </p>
+    <% else %>
+      <% @user.each do |user| %>
+        <div class="w-full p-5 border-b-2 border-darkThird">
+          <div class="px-4 flex justify-between">
+            <p class="text-md text-white my-auto"><%= user["user"].firstname %> <%= user["user"].lastname %></p>
+            <div class="flex">
+              <% if user["available"] %>
+                <%= image_tag "check-circle.svg", alt: "available", width: 24, height: 24 %>
+                <p class="text-white my-auto ml-5">Available</p>
+              <% else %>
+                <%= image_tag "x-circle.svg", alt: "notavailable", width: 24, height: 24 %>
+                <p class="text-white my-auto ml-5">Not available</p>
+              <% end %>
+            </div>
+            <div class="flex">
+              <%= image_tag "share.svg", alt: "share", width: 24, height: 24 %>
+              <p class="text-white my-auto ml-5">Shared <%= user["shared"] %> time(s)</p>
+            </div>
+            <% if user["available"] %>
+              <%= link_to borrows_new_path(user_id: user["user"].id, movie_id: @movie) do %>
+                <button class="rounded-full py-2 px-4 text-white bg-pinkPrincipal">Ask to borrow</button>
+              <% end %>
+            <% else %>
+              <button class="rounded-full py-2 px-4 text-white bg-gray-700 focus:outline-none cursor-not-allowed">Back soon</button>
+            <% end %>
           </div>
-          <div>
-            <p class="mt-5 text-gray-400">Director: <%= @movie.director %></p>
-            <p class="text-gray-400">Stars: <%= @movie.actors %></p>
-          </div>
-          <div class="mt-5">
-            <p class="text-lg text-gray-400"><%= @movie.plot %></p>
-          </div>
         </div>
-      </div>
-      <div class="px-12 py-10">
-        <div class="w-full flex p-3" style="background: #16274D">
-          <%= image_tag "user.svg", alt: "user", width: 24, height: 24 %>
-          <h3 class="ml-4 text-white font-bold text-md" style="color: #59698F">Owners list</h3>
-        </div>
-      </div>
-    </div>
+      <% end %>
+    <% end %>
   </div>
 </div>

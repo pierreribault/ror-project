@@ -1,0 +1,11 @@
+<div class="w-full h-20 bg-darkThird">
+  <div class="flex justify-between h-full">
+    <%= form_for 'movies', :url => movies_path, html: { method: :get, class: "flex my-auto ml-6 w-2/3"} do |f| %>
+      <%= image_tag "search.svg", alt: "seach", width: 46, height: 46 %>
+      <input name="search" id="search" type="text" class="ml-4 w-full bg-darkThird text-md font-bold text-darkText placeholder-darkText outline-none" placeholder="Search movies, actors, directors...">
+    <% end %>
+    <div class="my-auto mr-6">
+      <p class="text-white text-md"><%= current_user.firstname %> <%= current_user.lastname %></p>
+    </div>
+  </div>
+</div>

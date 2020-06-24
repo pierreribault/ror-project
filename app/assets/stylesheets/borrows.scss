@@ -1,0 +1,13 @@
+// Place all the styles related to the borrows controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #FFFFFF !important;
+  opacity: 1;
+  background-image: url("calendar_actif.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 20px;
+  cursor: pointer;
+}

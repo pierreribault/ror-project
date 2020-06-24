@@ -1,32 +1,31 @@
 class MoviesController < ApplicationController
+  layout 'dashboard'
+
   def index
-    @movies = Movie.all
-  end
+    if params[:search].present?
+      @movies_title = Movie.where("title LIKE ?", "%#{params[:search]}%")
+      @movies_actors = Movie.where("actors LIKE ?", "%#{params[:search]}%")
+      @movies_director = Movie.where("director LIKE ?", "%#{params[:search]}%")
 
-  def new
-    @movie = Movie.new
-  end
-
-  def create
-    @movie = Movie.create(params.require(:movie).permit(:title, :year, :genre, :plot, :director, :poster, :actors, :runtime))
-    if @movie.valid?
-      redirect_to movies_path
+      render 'index_full'
     else
-      flash[:error] = @movie.errors.full_messages
-      redirect_to new_movies_path
+      @movies = Movie.all
     end
   end
 
   def show
     @movie = Movie.find(params[:id])
-  end
+    @user = Array.new
 
-  def edit
-  end
+    @movie.user.each do |user|
+      user_info = Hash.new
 
-  def update
-  end
+      user_info["user"] = user
+      user_info["available"] = !Borrow.where(movie_id: @movie.id.to_s).where(user_id: user.id.to_s).where("deadline > '#{Date.current}'").where("status > 1").exists?
+      user_info["shared"] = Borrow.where(movie_id: @movie.id.to_s).where(user_id: user.id.to_s).where(status: 3).count
 
-  def destroy
+      @user.push(user_info)
+    end
+
   end
 end

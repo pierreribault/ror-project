@@ -1,0 +1,37 @@
+<div class="w-full flex flex-wrap px-32 py-12">
+  <div class="px-12 w-full mb-20 flex justify-between">
+    <div class="flex">
+      <div class="py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-pinkPrincipal"><%= @user.movie.length %> movie(s)</p>
+      </div>
+      <div class="ml-10 py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-green-400"><%= @shared %> shared</p>
+      </div>
+      <div class="ml-10 py-5 px-20 bg-darkThird">
+        <p class="text-2xl font-bold text-orange-400"><%= @borrow %> borrowed</p>
+      </div>
+    </div>
+    <div class="my-auto">
+      <%= link_to videotec_add_url, class:'card w-1/6' do %>
+        <button class="rounded-full py-2 px-10 text-white bg-pinkPrincipal focus:outline-none focus:shadow-outline">+ Add a movie</button>
+      <% end %>
+    </div>
+  </div>
+  <div class="px-12 w-full">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">My movies</h3>
+    </div>
+  </div>
+  <% if @user.movie.length == 0 %>
+    <p class="text-white mt-10 mx-10">No movie, use "+ Add a movie" to start your videotec!</p>
+  <% else %>
+    <div class="w-full flex flex-wrap">
+      <% @user.movie.each do |movie| %>
+        <%= link_to movie_path(movie.id), class:'card w-1/6' do %>
+          <%= render 'layouts/movie_poster', 'movie': movie %>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

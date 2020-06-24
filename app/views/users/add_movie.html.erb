@@ -1,0 +1,23 @@
+<div class="w-full flex flex-wrap px-32 py-12">
+  <div class="px-12 w-full">
+    <div class="w-full flex p-3 bg-darkThird">
+      <%= image_tag "movie.svg", alt: "movie", width: 24, height: 24 %>
+      <h3 class="ml-4 text-white font-bold text-md text-darkText">Add a movie</h3>
+    </div>
+    <%= form_for @user, :url => videotec_url, html: { method: :post, class: "flex justify-between mt-10"} do |f| %>
+      <div class="flex w-2/3">
+        <p class="text-white my-auto mr-10">Find a movie:</p>
+        <div class="w-2/5">
+          <select name="user[movie_id]" id="user_movie_id" class="block appearance-none w-full text-center text-md text-white bg-darkSecondary px-10 py-3 rounded-full leading-tight focus:outline-none focus:shadow-outline">
+            <% @movies.each do |movie| %>
+              <option value="<%= movie.id %>"><%= movie.title %></option>
+            <% end %>
+          </select>
+        </div>
+      </div>
+      <div>
+        <%= f.submit("+ Add the movie", class: "rounded-full py-2 px-10 text-white bg-pinkPrincipal focus:outline-none focus:shadow-outline") %>
+      </div>
+    <% end %>
+  </div>
+</div>
